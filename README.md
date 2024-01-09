@@ -1,5 +1,9 @@
 # Data Structures and Algorithms
 
+## Table of Contents
+
+
+
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/2-code-challenges), in the Code 301 Setup Guide.
 
 ## Repository Quick Tour and Usage
