@@ -6,6 +6,8 @@
 
 [Code Challenge 2](/python/docs/array_insert_shift/README.md)
 
+[Code Challenge 3](/python/docs/array_binary_search/README.md)
+
 -------------------------------------------------------------------------------
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/2-code-challenges), in the Code 301 Setup Guide.
 
