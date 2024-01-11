@@ -2,11 +2,13 @@
 
 ## Table of Contents
 
-[Code Challenge 1](/python/docs/README.md)
+[Code Challenge 1](/data-structures-and-algorithms/python/docs/README.md)
 
-[Code Challenge 2](/python/docs/array_insert_shift/README.md)
+[Code Challenge 2](/data-structures-and-algorithms/python/docs/array_insert_shift/README.md)
 
-[Code Challenge 3](/python/docs/array_binary_search/README.md)
+[Code Challenge 3](/data-structures-and-algorithms/python/docs/array_binary_search/README.md)
+
+[Code Challenge 4](/data-structures-and-algorithms/python/docs/array_matrix_sum/README.md)
 
 -------------------------------------------------------------------------------
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/2-code-challenges), in the Code 301 Setup Guide.
