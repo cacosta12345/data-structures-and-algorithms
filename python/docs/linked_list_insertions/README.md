@@ -30,45 +30,7 @@ Space: O(1) -- The space complexity remains constant because only one new node i
 
 ## Solution
 
-def append(self, value):
-        new_node = Node(value)
-        if not self.head:
-            self.head = new_node
-            return
-        current = self.head
-        while current.next:
-            current = current.next
-        current.next = new_node
-
-    def insert_before(self, target, value):
-        if self.head is None:
-            raise TargetError("List is empty")
-        if self.head.value == target:
-            self.insert(value)
-            return
-        current = self.head
-        while current.next and current.next.value != target:
-            current = current.next
-        if current.next is None:
-            raise TargetError(f"Target {target} not found in the list")
-        new_node = Node(value)
-        new_node.next = current.next
-        current.next = new_node
-
-    def insert_after(self, target, value):
-        current = self.head
-        while current and current.value != target:
-            current = current.next
-        if current is None:
-            raise TargetError(f"Target {target} not found in the list")
-        new_node = Node(value)
-        new_node.next = current.next
-        current.next = new_node
-        
-
-
-class TargetError(Exception):
-    pass
+[Link to Code](../../data_structures/linked_list.py)
 
 # Test the function with the provided examples
 
