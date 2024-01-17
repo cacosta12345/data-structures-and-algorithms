@@ -14,6 +14,8 @@
 
 [Code Challenge 6](/python/docs/linked_list_insertions/README.md)
 
+[Code Challenge 7](/python/docs/linked_list_kth/README.md)
+
 -------------------------------------------------------------------------------
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/2-code-challenges), in the Code 301 Setup Guide.
 
