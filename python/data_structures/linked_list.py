@@ -69,7 +69,26 @@ class LinkedList:
         new_node = Node(value)
         new_node.next = current.next
         current.next = new_node
+
+    def kth_from_end(self, k):
+        if k < 0:
+            raise TargetError("k cannot be negative")
         
+        lead, follow = self.head, self.head
+
+        for _ in range(k):
+            if lead is None:
+                raise TargetError("k is larger than the list length")
+            lead = lead.next
+
+        while lead and lead.next:
+            lead = lead.next
+            follow = follow.next
+
+        if follow is None or (k > 0 and lead is None):
+            raise TargetError("List is shorter than k elements")
+        
+        return follow.value
 
 
 class TargetError(Exception):
