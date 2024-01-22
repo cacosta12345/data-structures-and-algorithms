@@ -1,3 +1,4 @@
+
 # Stack and Queue Pseudo
 Create a Stack class that has a top property. It creates an empty Stack when instantiated.
 This object should be aware of a default empty value assigned to top when the stack is created.
@@ -39,6 +40,7 @@ Returns: Boolean indicating whether or not the queue is empty
 You have access to the Node class and all the properties on the Linked List class.
 
 
+
 ## Whiteboard Process
 ![Whiteboard]()
 
@@ -46,20 +48,17 @@ You have access to the Node class and all the properties on the Linked List clas
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 Big O Considerations: 
 
-Stack:
-    Time: O(1) -- all constant time operations
-    Space: O(n) -- linear
 
-Queue: 
-    Time: O(1) -- constant time operations
-    Space: O(n) -- linear
+Time: O(n) -- If stack2 is empty, all elements from stack1 are popped and pushed onto stack2.
+
+Space: O(n) -- In the worst case, all elements might be stored in both stacks during the transfer process
+
 
 
 ## Solution
 
-[Link to Stack Code](../../data_structures/stack.py)
+[Link to Code](../../code_challenges/stack_queue_pseudo.py)
 
-[Link to Queue Code](../../data_structures/queue.py)
 
 
 # Test the function with the provided examples
