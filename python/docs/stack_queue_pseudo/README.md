@@ -1,43 +1,17 @@
 
 # Stack and Queue Pseudo
-Create a Stack class that has a top property. It creates an empty Stack when instantiated.
-This object should be aware of a default empty value assigned to top when the stack is created.
-The class should contain the following methods:
-push
-Arguments: value
-adds a new node with that value to the top of the stack with an O(1) Time performance.
-pop
-Arguments: none
-Returns: the value from node from the top of the stack
-Removes the node from the top of the stack
-Should raise exception when called on empty stack
-peek
-Arguments: none
-Returns: Value of the node located at the top of the stack
-Should raise exception when called on empty stack
-is empty
-Arguments: none
-Returns: Boolean indicating whether or not the stack is empty.
-
-Create a Queue class that has a front property. It creates an empty Queue when instantiated.
-This object should be aware of a default empty value assigned to front when the queue is created.
-The class should contain the following methods:
+Create a new class called pseudo queue.
+Do not use an existing Queue.
+Instead, this PseudoQueue class will implement our standard queue interface (the two methods listed below),
+Internally, utilize 2 Stack instances to create and manage the queue
+Methods:
 enqueue
 Arguments: value
-adds a new node with that value to the back of the queue with an O(1) Time performance.
+Inserts a value into the PseudoQueue, using a first-in, first-out approach.
 dequeue
 Arguments: none
-Returns: the value from node from the front of the queue
-Removes the node from the front of the queue
-Should raise exception when called on empty queue
-peek
-Arguments: none
-Returns: Value of the node located at the front of the queue
-Should raise exception when called on empty stack
-is empty
-Arguments: none
-Returns: Boolean indicating whether or not the queue is empty
-You have access to the Node class and all the properties on the Linked List class.
+Extracts a value from the PseudoQueue, using a first-in, first-out approach.
+NOTE: The Stack instances have only push, pop, and peek methods. You should use your own Stack implementation. Instantiate these Stack objects in your PseudoQueue constructor.
 
 
 
