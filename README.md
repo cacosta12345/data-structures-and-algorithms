@@ -16,6 +16,8 @@
 
 [Code Challenge 7](/python/docs/linked_list_kth/README.md)
 
+[Code Challenge 10](/data-structures-and-algorithms/python/docs/stack_and_queue/README.md)
+
 -------------------------------------------------------------------------------
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/2-code-challenges), in the Code 301 Setup Guide.
 
