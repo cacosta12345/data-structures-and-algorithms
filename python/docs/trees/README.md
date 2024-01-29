@@ -26,7 +26,22 @@ Returns: boolean indicating whether or not the value is in the tree at least onc
 
 ## Approach & Efficiency
 
+* Create a binary tree class with the 3 main methods, pre_order, in-order, post-order
+
+* Implement a binary search tree using the binary_tree class and node previously defined
+
+* Add methods add and contains
+
+Big O considerations:
+    Binary_tree.py: 
+        Time: O(n) -- linear to amount of nodes
+        Space: O(h) -- where h is the height of the tree
+
+    Binary_Search_tree.py:
+        Time: O(n) -- worst case where nodes are unbalanced. O(log n) if balanced
+        Space: O(n) -- worst case where nodes are unbalanced. O(log n) if balanced
+
 
 ## Solution
 
-[Link to code](.)
+[Link to code](../../data_structures/binary_tree.py)
