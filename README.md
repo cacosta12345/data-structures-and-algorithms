@@ -20,6 +20,12 @@
 
 [Code Challenge 11](/python/docs/stack_queue_pseudo/README.md)
 
+[Code Challenge 12](/python/docs/stack_queue_animal_shelter/README.md)
+
+[Code Challenge 13](/python/docs/stack_queue_brackets/README.md)
+
+[Code Challenge 16](/python/docs/tree_max/README.md)
+
 -------------------------------------------------------------------------------
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/2-code-challenges), in the Code 301 Setup Guide.
 
