@@ -11,7 +11,8 @@ class Hashtable:
         """
         Generate a hash for a given key.
         """
-        return sum(ord(char) for char in key) % self.size
+        key_str = str(key)
+        return sum(ord(char) for char in key_str) % self.size
 
     def set(self, key, value):
         """
