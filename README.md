@@ -28,6 +28,10 @@
 
 [Code Challenge 17](/python/docs/tree_breadth_first/README.md)
 
+[Code Challenge 31](/python/docs/hashtable_repeated_word/README.md)
+
+[Code Challenge 32](/python/docs/tree_intersection/README.md)
+
 -------------------------------------------------------------------------------
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/2-code-challenges), in the Code 301 Setup Guide.
 
