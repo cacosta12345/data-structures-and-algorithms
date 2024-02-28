@@ -32,6 +32,8 @@
 
 [Code Challenge 32](/python/docs/tree_intersection/README.md)
 
+[Code Challenge 1](/python/docs/hashtable_left_join/README.md)
+
 -------------------------------------------------------------------------------
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/2-code-challenges), in the Code 301 Setup Guide.
 
