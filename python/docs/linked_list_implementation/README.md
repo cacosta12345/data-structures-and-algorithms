@@ -27,45 +27,7 @@ I followed along with JB's lecture and wrote the same code.
 
 ## Solution
 
-class Node:
-    def __init__(self, value):
-        self.value = value
-        self.next = None
-
-class LinkedList:
-    """
-    Put docstring here
-    """
-
-    def __init__(self):
-        self.head = None
-
-    def includes(self, value):
-        current = self.head
-        while current:
-            if current.value == value:
-                return True
-            current = current.next
-        return False
-    
-    def insert(self, value):
-        new_node = Node(value)
-        new_node.next = self.head
-        self.head = new_node
-
-    def __str__(self):
-        current = self.head
-        string_representation = ""
-
-        while current:
-            formatted_current_value = f"{{  {current.value}  }} ->"
-            string_representation += formatted_current_value
-            current = current.next
-
-        string_representation += "NULL"
-
-        return string_representation
-
+[Link to Code](../../data_structures/linked_list.py)
 
 # Test the function with the provided examples
 
