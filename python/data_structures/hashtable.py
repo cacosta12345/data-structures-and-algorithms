@@ -61,5 +61,8 @@ class Hashtable:
         """
         Utility method to display hashtable contents (for debugging and testing).
         """
-        return [bucket for bucket in self._buckets if bucket]
-
+        contents = []
+        for bucket in self._buckets:
+            if bucket:
+                contents.append(bucket)
+        return contents
